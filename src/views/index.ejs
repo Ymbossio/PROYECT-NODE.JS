@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
+   <%- include('partial/head.ejs')%>
+</head>
+<body>
+    <%- include('partial/navigation.ejs') %>
+
+    <header class="container vh-100 d-flex justify-content-center alignt-item-center">
+        <div class="d-flex flex-column alignt-item-center justify-content-center">
+            <img src="/img/Captura.PNG" alt="Imagen logo" class="w-100">
+            <h1 class="display-1 my-5 text-uppercase fw-bold">Yovanis</h1>
+            <a href="/about" class="btn btn-primary">about</a>
+        </div>
+
+    </header>
+
+    <%- include('partial/footer.ejs') %>
+  
+</body>
+</html>
